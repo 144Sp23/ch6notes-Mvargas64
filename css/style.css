@@ -146,7 +146,47 @@ footer p a {
   height: 50%;
 }
 
-/*
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 630px){
+        
+
+
+/* Tablet Viewport: show tablet-desktop class, hide mobile class */
+.tablet-desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Tablet Viewport: Style rule for header */
+header {
+    position: static;
+    padding-bottom: 2%;
+}
+
+/* Tablet Viewport: Style rule for nav area */
+nav li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+
+nav li: last-child {
+    border-right: none;    
+}
+
+nav li a {
+    padding: 0.1em 0.75em;
+}
+
+/* Tablet Viewport: Style rule for main content area */
+main ul {
+    margin: 0 0 4% 10%;
+}
+
 #exercises {
   clear: left;
   border-top: 1px solid #000;
@@ -161,4 +201,5 @@ footer p a {
 
 #exercises dd {
   padding: 0.5% 1% 2% 0;
-} */
+} 
+}
