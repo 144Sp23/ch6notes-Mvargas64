@@ -188,7 +188,6 @@ main ul {
 }
 
 #exercises {
-  clear: left;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   background: linear-gradient (to right, #ccc, #fff);
