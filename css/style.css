@@ -174,7 +174,7 @@ nav li {
     border-right: 1px solid #fff;
 }
 
-nav li: last-child {
+nav li:last-child {
     border-right: none;    
 }
 
