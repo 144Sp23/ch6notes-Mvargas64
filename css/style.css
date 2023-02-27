@@ -256,7 +256,7 @@ main ul {
             font-size: 1.9em;
         }
 
-        #weight, #cardio, #training {
+        #weights, #cardio, #training {
             width: 29%;
             float: left;
             margin: 0 2%;
